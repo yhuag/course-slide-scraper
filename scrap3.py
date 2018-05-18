@@ -6,8 +6,8 @@ import os
 
 HOME_URL = "https://course.cse.ust.hk/comp4332/Password_Only/exerciseLink.html"
 BASE_URL = "https://course.cse.ust.hk/comp4332/Password_Only/"
-USERNAME = "comp4332"
-PASSWORD = "bigdata"
+USERNAME = "<username_here>"
+PASSWORD = "<password_here>"
 
 
 page = requests.get(HOME_URL, auth=HTTPBasicAuth(USERNAME, PASSWORD))
